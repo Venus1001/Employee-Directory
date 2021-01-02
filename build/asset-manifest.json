@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-employee-directory/static/css/main.f6a42cf4.chunk.css",
-    "main.js": "/react-employee-directory/static/js/main.279dd08c.chunk.js",
-    "main.js.map": "/react-employee-directory/static/js/main.279dd08c.chunk.js.map",
-    "runtime-main.js": "/react-employee-directory/static/js/runtime-main.c8d5e7ba.js",
-    "runtime-main.js.map": "/react-employee-directory/static/js/runtime-main.c8d5e7ba.js.map",
-    "static/js/2.cc749190.chunk.js": "/react-employee-directory/static/js/2.cc749190.chunk.js",
-    "static/js/2.cc749190.chunk.js.map": "/react-employee-directory/static/js/2.cc749190.chunk.js.map",
-    "index.html": "/react-employee-directory/index.html",
-    "precache-manifest.266fdd1c7a3e4f3df8f103edd7860235.js": "/react-employee-directory/precache-manifest.266fdd1c7a3e4f3df8f103edd7860235.js",
-    "service-worker.js": "/react-employee-directory/service-worker.js",
-    "static/css/main.f6a42cf4.chunk.css.map": "/react-employee-directory/static/css/main.f6a42cf4.chunk.css.map",
-    "static/js/2.cc749190.chunk.js.LICENSE.txt": "/react-employee-directory/static/js/2.cc749190.chunk.js.LICENSE.txt",
-    "static/media/company_logo.png": "/react-employee-directory/static/media/company_logo.d8643511.png"
+    "main.css": "/Venus1001/Employee-Directory/Employee-Directory/static/css/main.f6a42cf4.chunk.css",
+    "main.js": "/Venus1001/Employee-Directory/Employee-Directory/static/js/main.beceb63d.chunk.js",
+    "main.js.map": "/Venus1001/Employee-Directory/Employee-Directory/static/js/main.beceb63d.chunk.js.map",
+    "runtime-main.js": "/Venus1001/Employee-Directory/Employee-Directory/static/js/runtime-main.ac51bb2b.js",
+    "runtime-main.js.map": "/Venus1001/Employee-Directory/Employee-Directory/static/js/runtime-main.ac51bb2b.js.map",
+    "static/js/2.0ce58158.chunk.js": "/Venus1001/Employee-Directory/Employee-Directory/static/js/2.0ce58158.chunk.js",
+    "static/js/2.0ce58158.chunk.js.map": "/Venus1001/Employee-Directory/Employee-Directory/static/js/2.0ce58158.chunk.js.map",
+    "index.html": "/Venus1001/Employee-Directory/Employee-Directory/index.html",
+    "precache-manifest.499f0a51cddddb5354801ad41df62c22.js": "/Venus1001/Employee-Directory/Employee-Directory/precache-manifest.499f0a51cddddb5354801ad41df62c22.js",
+    "service-worker.js": "/Venus1001/Employee-Directory/Employee-Directory/service-worker.js",
+    "static/css/main.f6a42cf4.chunk.css.map": "/Venus1001/Employee-Directory/Employee-Directory/static/css/main.f6a42cf4.chunk.css.map",
+    "static/js/2.0ce58158.chunk.js.LICENSE.txt": "/Venus1001/Employee-Directory/Employee-Directory/static/js/2.0ce58158.chunk.js.LICENSE.txt",
+    "static/media/company_logo.png": "/Venus1001/Employee-Directory/Employee-Directory/static/media/company_logo.d8643511.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8d5e7ba.js",
-    "static/js/2.cc749190.chunk.js",
+    "static/js/runtime-main.ac51bb2b.js",
+    "static/js/2.0ce58158.chunk.js",
     "static/css/main.f6a42cf4.chunk.css",
-    "static/js/main.279dd08c.chunk.js"
+    "static/js/main.beceb63d.chunk.js"
   ]
 }

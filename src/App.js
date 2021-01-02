@@ -16,7 +16,6 @@ function App() {
     }
 
     function handleSortByName() {
-        // sort array ascending or descending by first name
         if (!sorted) {
             setEmployees(data.sort((a, b) => (a.name > b.name) ? 1 : -1));
             setSorted(true);
@@ -27,7 +26,6 @@ function App() {
     }
 
     function handleSortByDept() {
-        // sort array ascending or descending by dept name
         if (!sorted) {
             setEmployees(data.sort((a, b) => (a.department > b.department) ? 1 : -1));
             setSorted(true);
@@ -37,22 +35,19 @@ function App() {
         }
     }
 
-    // the filteredEmployees variable only stores employee names that start with with the matching string you type
     const filteredEmployees = data.filter(employee => employee.name.toLowerCase().startsWith(searchTerm.toLowerCase()));
     return (
         <div>
             <Header/>
             <Layout>
                 <h1 className="title text-5xl text-gray-800 mt-16">Employee Directory</h1>
-                <p className="mb-16 text-md">Search for an employee or sort by Name or Category.</p>
-                {/*the handleSearchTerm method and searchTerm state get passed down to the Navigation component via props with the onSearch and searchTerm props*/}
+                <p className="mb-16 text-md">Search for an employee or sort by Employee Name or Department.</p>
                 <Navigation
                     onSearch={handleSearchTerm}
                     searchTerm={searchTerm}
                     handleSortByName={handleSortByName}
                     handleSortByDept={handleSortByDept}
                 />
-                {/* the employees array gets the filteredEmployees data via the data prop */}
                 <EmployeeCardList data={filteredEmployees}/>
                 <Footer/>
             </Layout>
